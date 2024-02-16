@@ -1,3 +1,4 @@
+import React from 'react';
 import styles from './Label.module.scss';
 
 export function Label(props: React.LabelHTMLAttributes<HTMLLabelElement>) {

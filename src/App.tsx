@@ -1,5 +1,6 @@
 import './App.scss';
 import { Button, Input, Label } from '../lib/main';
+import React from 'react';
 
 function App() {
   return (
