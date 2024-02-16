@@ -1,0 +1,5 @@
+// To ensure only the lib directory is included during the build process
+{
+  "extends": "./tsconfig.json",
+  "include": ["lib"]
+}
