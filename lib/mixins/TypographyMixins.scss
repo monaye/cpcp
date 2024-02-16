@@ -1,0 +1,599 @@
+@mixin font-display-2xl-regular {
+  // Display 2xl/Regular //
+  font-weight: 400;
+  font-size: 72px;
+  /* Recommend for responsive css clamp(mobile, mid, desktop) - 
+        you can change 5vw value
+         font-size:clamp(50px, 5vw, 72px); */
+  line-height: 125%;
+  text-decoration: none;
+  letter-spacing: -2%;
+}
+
+@mixin font-display-2xl-medium {
+  // Display 2xl/Medium //
+  font-weight: 500;
+  font-size: 72px;
+  /* Recommend for responsive css clamp(mobile, mid, desktop) - 
+        you can change 5vw value
+         font-size:clamp(50px, 5vw, 72px); */
+  line-height: 125%;
+  text-decoration: none;
+  letter-spacing: -2%;
+}
+
+@mixin font-display-2xl-semibold {
+  // Display 2xl/Semibold //
+  font-weight: 400;
+  font-size: 72px;
+  /* Recommend for responsive css clamp(mobile, mid, desktop) - 
+        you can change 5vw value
+         font-size:clamp(50px, 5vw, 72px); */
+  line-height: 125%;
+  text-decoration: none;
+  letter-spacing: -2%;
+}
+
+@mixin font-display-2xl-bold {
+  // Display 2xl/Bold //
+  font-weight: 700;
+  font-size: 72px;
+  /* Recommend for responsive css clamp(mobile, mid, desktop) - 
+        you can change 5vw value
+         font-size:clamp(50px, 5vw, 72px); */
+  line-height: 125%;
+  text-decoration: none;
+  letter-spacing: -2%;
+}
+
+@mixin font-display-xl-regular {
+  // Display xl/Regular //
+  font-weight: 400;
+  font-size: 60px;
+  /* Recommend for responsive css clamp(mobile, mid, desktop) - 
+        you can change 5vw value
+         font-size:clamp(48px, 5vw, 60px); */
+  line-height: 120%;
+  text-decoration: none;
+  letter-spacing: -2%;
+}
+
+@mixin font-display-xl-medium {
+  // Display xl/Medium //
+  font-weight: 500;
+  font-size: 60px;
+  /* Recommend for responsive css clamp(mobile, mid, desktop) - 
+        you can change 5vw value
+         font-size:clamp(48px, 5vw, 60px); */
+  line-height: 120%;
+  text-decoration: none;
+  letter-spacing: -2%;
+}
+
+@mixin font-display-xl-semibold {
+  // Display xl/Semibold //
+  font-weight: 400;
+  font-size: 60px;
+  /* Recommend for responsive css clamp(mobile, mid, desktop) - 
+        you can change 5vw value
+         font-size:clamp(48px, 5vw, 60px); */
+  line-height: 120%;
+  text-decoration: none;
+  letter-spacing: -2%;
+}
+
+@mixin font-display-xl-bold {
+  // Display xl/Bold //
+  font-weight: 700;
+  font-size: 60px;
+  /* Recommend for responsive css clamp(mobile, mid, desktop) - 
+        you can change 5vw value
+         font-size:clamp(48px, 5vw, 60px); */
+  line-height: 120%;
+  text-decoration: none;
+  letter-spacing: -2%;
+}
+
+@mixin font-display-lg-regular {
+  // Display lg/Regular //
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 125%;
+  text-decoration: none;
+  letter-spacing: -2%;
+}
+
+@mixin font-display-lg-medium {
+  // Display lg/Medium //
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 125%;
+  text-decoration: none;
+  letter-spacing: -2%;
+}
+
+@mixin font-display-lg-semibold {
+  // Display lg/Semibold //
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 125%;
+  text-decoration: none;
+  letter-spacing: -2%;
+}
+
+@mixin font-display-lg-bold {
+  // Display lg/Bold //
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 125%;
+  text-decoration: none;
+  letter-spacing: -2%;
+}
+
+@mixin font-display-md-regular {
+  // Display md/Regular //
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 122.22%;
+  text-decoration: none;
+  letter-spacing: -2%;
+}
+
+@mixin font-display-md-medium {
+  // Display md/Medium //
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 122.22%;
+  text-decoration: none;
+  letter-spacing: -2%;
+}
+
+@mixin font-display-md-semibold {
+  // Display md/Semibold //
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 122.22%;
+  text-decoration: none;
+  letter-spacing: -2%;
+}
+
+@mixin font-display-md-bold {
+  // Display md/Bold //
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 122.22%;
+  text-decoration: none;
+  letter-spacing: -2%;
+}
+
+@mixin font-display-sm-regular {
+  // Display sm/Regular //
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 126.67%;
+  text-decoration: none;
+  letter-spacing: normal;
+}
+
+@mixin font-display-sm-medium {
+  // Display sm/Medium //
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 126.67%;
+  text-decoration: none;
+  letter-spacing: normal;
+}
+
+@mixin font-display-sm-semibold {
+  // Display sm/Semibold //
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 126.67%;
+  text-decoration: none;
+  letter-spacing: normal;
+}
+
+@mixin font-display-sm-bold {
+  // Display sm/Bold //
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 126.67%;
+  text-decoration: none;
+  letter-spacing: normal;
+}
+
+@mixin font-display-sm---medium-italic {
+  // Display sm / Medium italic //
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 146.67%;
+  text-decoration: none;
+  letter-spacing: normal;
+}
+
+@mixin font-display-xs-regular {
+  // Display xs/Regular //
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 133.33%;
+  text-decoration: none;
+  letter-spacing: normal;
+}
+
+@mixin font-display-xs-medium {
+  // Display xs/Medium //
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 133.33%;
+  text-decoration: none;
+  letter-spacing: normal;
+}
+
+@mixin font-display-xs-semibold {
+  // Display xs/Semibold //
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 133.33%;
+  text-decoration: none;
+  letter-spacing: normal;
+}
+
+@mixin font-display-xs-bold {
+  // Display xs/Bold //
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 133.33%;
+  text-decoration: none;
+  letter-spacing: normal;
+}
+
+@mixin font-display-xs-medium-italic {
+  // Display xs/Medium italic //
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 150%;
+  text-decoration: none;
+  letter-spacing: normal;
+}
+
+@mixin font-display-xs---semibold-underlined {
+  // Display xs / Semibold underlined //
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 133.33%;
+  text-decoration: underline;
+  letter-spacing: normal;
+}
+
+@mixin font-text-xl-regular {
+  // Text xl/Regular //
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  text-decoration: none;
+  letter-spacing: normal;
+}
+
+@mixin font-text-xl-medium {
+  // Text xl/Medium //
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+  text-decoration: none;
+  letter-spacing: normal;
+}
+
+@mixin font-text-xl-semibold {
+  // Text xl/Semibold //
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  text-decoration: none;
+  letter-spacing: normal;
+}
+
+@mixin font-text-xl-bold {
+  // Text xl/Bold //
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 150%;
+  text-decoration: none;
+  letter-spacing: normal;
+}
+
+@mixin font-text-xl-regular-italic {
+  // Text xl/Regular italic //
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  text-decoration: none;
+  letter-spacing: normal;
+}
+
+@mixin font-text-xl-medium-italic {
+  // Text xl/Medium italic //
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  text-decoration: none;
+  letter-spacing: normal;
+}
+
+@mixin font-text-xl-semibold-italic {
+  // Text xl/Semibold italic //
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  text-decoration: none;
+  letter-spacing: normal;
+}
+
+@mixin font-text-xl-bold-italic {
+  // Text xl/Bold italic //
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  text-decoration: none;
+  letter-spacing: normal;
+}
+
+@mixin font-text-xl---regular-underlined {
+  // Text xl / Regular underlined //
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  text-decoration: underline;
+  letter-spacing: normal;
+}
+
+@mixin font-text-xl---medium-underlined {
+  // Text xl / Medium underlined //
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+  text-decoration: underline;
+  letter-spacing: normal;
+}
+
+@mixin font-text-lg-regular {
+  // Text lg/Regular //
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 155.56%;
+  text-decoration: none;
+  letter-spacing: normal;
+}
+
+@mixin font-text-lg-medium {
+  // Text lg/Medium //
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 155.56%;
+  text-decoration: none;
+  letter-spacing: normal;
+}
+
+@mixin font-text-lg-semibold {
+  // Text lg/Semibold //
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 155.56%;
+  text-decoration: none;
+  letter-spacing: normal;
+}
+
+@mixin font-text-lg-bold {
+  // Text lg/Bold //
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 155.56%;
+  text-decoration: none;
+  letter-spacing: normal;
+}
+
+@mixin font-text-lg-regular-italic {
+  // Text lg/Regular italic //
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 155.56%;
+  text-decoration: none;
+  letter-spacing: normal;
+}
+
+@mixin font-text-lg-medium-italic {
+  // Text lg/Medium italic //
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 155.56%;
+  text-decoration: none;
+  letter-spacing: normal;
+}
+
+@mixin font-text-lg-semibold-italic {
+  // Text lg/Semibold italic //
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 155.56%;
+  text-decoration: none;
+  letter-spacing: normal;
+}
+
+@mixin font-text-lg-bold-italic {
+  // Text lg/Bold italic //
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 155.56%;
+  text-decoration: none;
+  letter-spacing: normal;
+}
+
+@mixin font-text-lg-regular-underlined {
+  // Text lg/Regular underlined //
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 155.56%;
+  text-decoration: underline;
+  letter-spacing: normal;
+}
+
+@mixin font-text-lg---medium-underlined {
+  // Text lg / Medium underlined //
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 155.56%;
+  text-decoration: underline;
+  letter-spacing: normal;
+}
+
+@mixin font-text-md-regular {
+  // Text md/Regular //
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  text-decoration: none;
+  letter-spacing: normal;
+}
+
+@mixin font-text-md-medium {
+  // Text md/Medium //
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  text-decoration: none;
+  letter-spacing: normal;
+}
+
+@mixin font-text-md-semibold {
+  // Text md/Semibold //
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  text-decoration: none;
+  letter-spacing: normal;
+}
+
+@mixin font-text-md-bold {
+  // Text md/Bold //
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  text-decoration: none;
+  letter-spacing: normal;
+}
+
+@mixin font-text-md-regular-italic {
+  // Text md/Regular italic //
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  text-decoration: none;
+  letter-spacing: normal;
+}
+
+@mixin font-text-md-medium-italic {
+  // Text md/Medium italic //
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  text-decoration: none;
+  letter-spacing: normal;
+}
+
+@mixin font-text-md-semibold-italic {
+  // Text md/Semibold italic //
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  text-decoration: none;
+  letter-spacing: normal;
+}
+
+@mixin font-text-md-bold-italic {
+  // Text md/Bold italic //
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  text-decoration: none;
+  letter-spacing: normal;
+}
+
+@mixin font-text-md---regular-underlined {
+  // Text md / Regular underlined //
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  text-decoration: underline;
+  letter-spacing: normal;
+}
+
+@mixin font-text-sm-regular {
+  // Text sm/Regular //
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 142.86%;
+  text-decoration: none;
+  letter-spacing: normal;
+}
+
+@mixin font-text-sm-medium {
+  // Text sm/Medium //
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 142.86%;
+  text-decoration: none;
+  letter-spacing: normal;
+}
+
+@mixin font-text-sm-semibold {
+  // Text sm/Semibold //
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 142.86%;
+  text-decoration: none;
+  letter-spacing: normal;
+}
+
+@mixin font-text-sm---bold {
+  // Text sm / Bold //
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 142.86%;
+  text-decoration: none;
+  letter-spacing: normal;
+}
+
+@mixin font-text-xs-regular {
+  // Text xs/Regular //
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  text-decoration: none;
+  letter-spacing: normal;
+}
+
+@mixin font-text-xs-medium {
+  // Text xs/Medium //
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 150%;
+  text-decoration: none;
+  letter-spacing: normal;
+}
+
+@mixin font-text-xs-semibold {
+  // Text xs/Semibold //
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  text-decoration: none;
+  letter-spacing: normal;
+}
+
+@mixin font-text-xs---bold {
+  // Text xs / Bold //
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 150%;
+  text-decoration: none;
+  letter-spacing: normal;
+}
